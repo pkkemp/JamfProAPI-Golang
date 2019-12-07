@@ -7,7 +7,7 @@ import (
 "log"
 )
 
-func main() {
+func decodePEM() {
 	var pubPEMData = []byte(`
 -----BEGIN PUBLIC KEY-----
 MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAlRuRnThUjU8/prwYxbty
